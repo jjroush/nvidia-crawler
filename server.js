@@ -1,6 +1,7 @@
 const express = require('express');
 const request = require('request');
 const cheerio = require('cheerio');
+const nodemailer = require('nodemailer');
 const app = express();
 
 app.get('/scrape', function(req, res){
